@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Lorem, ipsum dolor.</h2>
+      <label for="opt">
+        Option 1
+        <input type="radio" name="options" id="opt" />
+      </label>
+
+      <label for="opt1">
+        Option 2
+        <input type="radio" name="options" id="opt1" />
+      </label>
+
+      <label for="opt2">
+        Option 3
+        <input type="radio" name="options" id="opt2" />
+      </label>
+
+      <label for="opt3">
+        Option 4
+        <input type="radio" name="options" id="opt3" />
+      </label>
+    </form>
+    <form action="">
+      <h2>Lorem, ipsum dolor.</h2>
+      <label for="opt4">
+        Option 1
+        <input type="checkbox" name="sel" id="opt4" />
+      </label>
+
+      <label for="opt5">
+        Option 2
+        <input type="checkbox" name="sel" id="opt5" />
+      </label>
+
+      <label for="opt6">
+        Option 3
+        <input type="checkbox" name="sel" id="opt6" />
+      </label>
+
+      <label for="opt7">
+        Option 4
+        <input type="checkbox" name="sel" id="opt7" class="opt7" />
+      </label>
+    </form>
+
+    <script>
+      const el = document.querySelector(".opt7");
+      el.addEventListener("click", () => {
+        alert("correct");
+      });
+    </script>
+  </body>
+</html>
