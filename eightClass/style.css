@@ -1,0 +1,13 @@
+/* ecternal css */
+p{
+    background-color: aquamarine;
+    /* font-size: 1rem; */
+}
+
+div{
+    /* width: 400px; */
+    /* height: 400px; */
+    height: 100%;
+    width: 50%;
+    border: 2px solid;
+}
