@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+color: lightcoral;
+        }
+        p:hover{
+            color: red;
+        }
+        p::after{
+           content: "Justin 😏";
+        }
+        p::before{
+           content: "Justin 😏🤭";
+        }
+        p::first-letter{
+           font-size: 40px;
+        }
+        ::selection{
+              background: lightcoral;
+              color: #111;
+        }
+        img{
+            /* float: right; */
+        }
+        ul{
+            /* float: left; */
+            /* float: up; */
+            /* float: none; */
+        }
+        ul li {
+            /* float:right; */
+            padding: 10px;
+            color: bisque;
+            font-size: 20px;
+            list-style-type: none;
+        }
+        .h {
+            columns: 3;
+        }
+    </style>
+</head>
+<body>
+    <p>
+Lorem ipsum dolor sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit adipisci consequuntur dolorum sint est totam impedit expedita quidem vitae magni, incidunt explicabo distinctio odio odit a aperiam? Odio, repudiandae optio!
+    <img src="https://unsplash.it/300" alt="">
+    </p>
+    <ul>
+        <li>
+         Google
+        </li>
+        <li>
+         Facebook
+        </li>
+        <li>
+           ouYtube
+        </li>
+    </ul>
+    <div class="h">
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+
+    </div>
+</body>
+</html>
