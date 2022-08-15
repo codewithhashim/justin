@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+
+        Project Class 1
+
+    </title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .bg-img{
+            background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/294c3d42f439542ba47a2783/pexels-photo-3604656.jpeg);
+        min-height: 604px;
+        background-position: 50% 50%;
+        min-width: 50%;
+            
+
+        }
+        .text{
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width:500px) {
+            .container {
+                flex-direction: column;
+            }
+            .bg-img{
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="bg-img">
+            
+        </div>
+        <div class="text">
+            <h3>
+                About US
+            </h3>
+            <h2>
+                Lorem ipsum dolor sit amet.
+            </h2>
+            <p>
+                Phasellus scelerisque arcu vestibulum tempor tempor. Donec vulputate leo et metus hendrerit bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In scelerisque nisl nec ornare euismod.
+            </p>
+            <button>
+                view more
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
