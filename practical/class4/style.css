@@ -1,0 +1,39 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.container div {
+    border: 1px solid peru;
+}
+.container div:nth-child(1) {
+    
+    /* flex-grow: .3; */
+    /* flex-grow: 0.5; */
+    /* flex-grow: 1; */
+    /* flex-grow: .25; */
+    /* flex-shrink: 1; */
+    flex-basis: 300px;
+    flex: auto;
+
+    
+}
+
+.container div:nth-child(2) {
+ 
+    /* flex-grow: .5; */
+    /* flex-grow: 1; */
+    flex-grow: .25;
+    /* flex-shrink: 1; */
+    flex-basis: 300px;
+    flex: auto;
+
+
+
+    
+}
+
