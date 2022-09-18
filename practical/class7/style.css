@@ -1,0 +1,30 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container {
+    display: grid;
+    /* display: inline-grid; */
+    max-width: 600px;
+    margin: 0 auto;
+    /* explicit grid */
+    /* width of the columns */
+    grid-template-columns: 50% 25% 25%;
+    /* space between grid columns */
+    gap: 20px;
+    /* height of the row*/
+    grid-template-rows: 50px 100px;
+    /* fr -fractional unit */
+    /* auto - space needed */
+    grid-template-columns: auto 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: ; */
+}
+.container div {
+    background-color: lightcoral;
+    margin-bottom: 5px;
+}
